@@ -1,0 +1,121 @@
+$couleur:red;
+nav{
+    margin: 10px;
+    padding: 0.1em;
+    align-items: center;
+    display: flex;
+      
+  /* This is used to make the navbar sticky, So that the
+      navbar stays at the top part even if we scroll */
+      position: sticky; 
+      bottom: 0;
+      justify-content: center;
+      top: 0px;
+      background-color: #ff7f00;
+      
+       
+    list-style: none;
+    width: auto;
+}
+li{
+    display: flex;
+    width: 50%;
+    text-align: right;
+}
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    
+}
+.dive{
+    margin: 0.1em;
+    padding: 0.1em;
+    border: 2px solid black;
+    
+}
+#im{
+   width: 20em;
+   align-items: center;
+   display: inline;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0.1em;
+}
+#img{
+    width: 10em;
+}
+.footer{
+    margin: 0.1em;
+    padding: 0.1em;
+    justify-content: center;
+    display: flex;
+    background-color: green;
+    border-top:2px solid red;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    
+    
+}
+
+.lu{
+    border: 2px solid blanchedalmond;
+}
+.carousel{
+    
+    
+    
+}
+.full{
+    background-color: whitesmoke;
+}
+
+.section1{
+    border: 2px solid rebeccapurple;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    width: 20em;
+   align-items: center;
+   display: inline;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0.1em;
+   background-color: #d98324;
+   
+    
+}
+.section2{
+    
+    border: 2px;
+    width: 300px;
+    height: 200px;
+   
+    
+}
+.section3{
+    
+    border: 2px;
+    width: 300px;
+    height: 200px;
+    
+    
+}
+.section4{
+    border: 2px;
+    width: 300px;
+    height: 200px;
+    
+    
+}
+#div1{
+    border: 2px solid red;
+    background-color: #d98324;
+}

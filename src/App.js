@@ -1,0 +1,44 @@
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Contact from "./pages/Contact";
+import './pages/essai.scss';
+import Pieddepage from "./pages/Pieddepage";
+
+import Carousel from "./pages/Carousel";
+
+
+
+
+export default function App() {
+  return (
+   <div class="full">
+    <BrowserRouter >
+     
+      <Routes>
+          <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="carousel" element={<Carousel />} />
+          
+         
+        </Route>
+      </Routes> 
+    </BrowserRouter>
+    
+    <div className="foot">
+    
+    <h2></h2>
+   
+  </div>
+    </div>
+    
+    
+    
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
